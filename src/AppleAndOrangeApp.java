@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class AppleAndOrangeApp {
     static int[] appleAndOrange(int s, int t, int a, int b, int[] apple, int[] orange) {
-        // Complete this function
+    	
     	int[] temp = new int[2];
     	for(int i =0; i < apple.length; i++) {
     		System.out.println("a + apple[i] = "+ (a + apple[i]));
